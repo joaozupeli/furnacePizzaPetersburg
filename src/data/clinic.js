@@ -29,6 +29,7 @@ export const clinic = {
   phone: 'See Instagram @furnacepizza_pva',
   email: 'info.furnacepizza@gmail.com',
   instagramUrl: 'https://www.instagram.com/furnacepizza_pva/',
+  orderUrl: 'mailto:info.furnacepizza@gmail.com',
 
   address: {
     street: 'Pop-ups across Petersburg, Richmond & 757',
