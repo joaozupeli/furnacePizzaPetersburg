@@ -10,10 +10,10 @@ const router = createRouter({
       component: HomeView,
     },
   ],
-  scrollBehavior(to) {
-    if (to.hash) {
-      return { el: to.hash, behavior: 'smooth' }
-    }
+  // Âncoras são tratadas pelo Lenis em useMotion; aqui só o topo em troca de rota.
+  scrollBehavior(to, _from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (to.hash) return false
     return { top: 0 }
   },
 })

@@ -1,0 +1,7 @@
+export const testimonials = [
+  { id: 1, name: 'Joann B.', role: 'Petersburg regular', rating: 5, text: 'Best pizza ever — the crust is light and the nights feel like a real community hang.', avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&h=160&fit=crop&auto=format', avatarAlt: 'Joann' },
+  { id: 2, name: 'Marcus T.', role: 'Richmond pop-up guest', rating: 5, text: 'Caught Furnace at a brewery night. Ember heat, blistered rim, zero chain vibes.', avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&fit=crop&auto=format', avatarAlt: 'Marcus' },
+  { id: 3, name: 'Priya N.', role: 'Catering client', rating: 5, text: 'West made our private event effortless. A real site would help friends book without hunting IG.', avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=160&h=160&fit=crop&auto=format', avatarAlt: 'Priya' },
+  { id: 4, name: 'Sam W.', role: '757 visitor', rating: 5, text: 'Drove over for the pie after spotting StreetFoodFinder. Worth every mile.', avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=160&h=160&fit=crop&auto=format', avatarAlt: 'Sam' },
+  { id: 5, name: 'Chloe R.', role: 'IG follower', rating: 5, text: 'Charcoal and crust-gold photos already look website-ready — just needed the page.', avatar: 'https://images.unsplash.com/photo-1487412720507-e7ab130641c0?w=160&h=160&fit=crop&auto=format', avatarAlt: 'Chloe' },
+]
